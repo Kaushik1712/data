@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingController {
 
     @Autowired
+    
     private ProducerTemplate producerTemplate;
 
     @PostMapping("/greet")
